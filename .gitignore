@@ -1,2 +1,3 @@
 #ignore node_modules directory(we dont want node_moduloe folder to enter into git that's why we ignore node_modules by doing this)
 node_modules/  
+.env 

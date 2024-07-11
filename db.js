@@ -1,8 +1,10 @@
 const mongoose=require('mongoose'); //to import mongoose
+require('dotenv').config();
 
 //making the URL for mongodb connection
 
-const mongoUrl='mongodb://localhost:27017/mydatabase'  //we can replace mydatabase with any name of your database
+//const mongoUrl='mongodb://localhost:27017/mydatabase'  //we can replace mydatabase with any name of your database
+const mongoUrl=process.env.MONGODB_URL
 
 //set up mongodb connection
 
